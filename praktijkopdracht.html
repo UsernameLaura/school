@@ -1,0 +1,84 @@
+<body>
+    <h1> Formulier praktijkopdracht Webdesign</h1>
+    <p><span class='error'> * Verplicht veld </span></p>
+    <form method='post' Action='#'>
+      <fieldset>
+      <ol>
+        <li>
+          <label for="name">Naam</label>
+          <input type="text" name="Naam" autofocus required>
+          <span class="error">*</span>
+          </li>
+          <li>
+          <label for="email">E-mail</label>
+          <input type="email" name="email" required placeholder="jouwemail@hotmail.com">
+          <span class="error">*</span>
+        </li>
+        <li>
+        <label for="telefoonnummer">Telefoonnummer</label>
+      <input type="telefoonnummer" name="Telefoonnummer" placeholder="06-12345678">
+      </li>
+      <li>
+        <label for="comment">Opmerkingen</label>
+      <textarea name="comment" rows="5" cols="40"></textarea>
+          </li>
+           <li>
+              <span>Hoe ben je op onze site terechtgekomen?</span>
+                <ol>
+                  <li>
+                      <input name="refer-random" type="checkbox" id="refer_random" value="random" />
+                      <label for="refer-random">Sociale kanalen</label>
+                  </li>
+                  <li>
+                      <input name="refer-friend" type="checkbox" id="refer-friend" value="friend" />
+                      <label for="refer-friend">Vrienden en familie</label>
+                  </li>
+                  <li>
+                        <input name="refer-search-engine" type="checkbox" id="refer-search-engine" value="search-engine" />
+                        <label for="refer-search-engine">Google</label>
+                      </li>
+                  </ol>
+              </li>
+              <li>
+                    <label for="rating">Wat vind je van deze site?</label>
+                    <ol>
+                        <li>
+                            <input type="radio" name="rating" id="rate-5" value="5" />
+                            <label for="rate-5">Zeer goed</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="rating" id="rate-4" value="4">
+                            <label for="rate-4">Goed</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="rating" id="rate-3" value="3">
+                            <label for="rate-4">Matig</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="rating" id="rate-2" value="2">
+                            <label for="rate-4">Slecht</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="rating" id="rate-1" value="1">
+                            <label for="rate-4">Heel slecht</label>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <label for="country">Land</label>
+                    <select name=country>
+                        <option value="BE">Nederland</option>
+                        <option value="DE">België</option>
+                        <option value="FR">Duitsland</option>
+                        <option value="LU">Luxemburg</option>
+                        <option value="NL">Frankrijk</option>
+                    </select>
+                </li>
+            </ol>
+        </fieldset>
+        <li>
+        <div class="command-bar">
+            <button type="submit" name="uc" value="User-Insert">Insert</button>
+        </li>
+    </form>
+</body>
