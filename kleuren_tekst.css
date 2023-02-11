@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(200, 222, 184);}
+  h1 {
+    color: Green;
+  font-family: monospace; courier;}
+  h4 {
+    background-color: #93bf71;
+    opacity: 0.6;
+  font-style: italic;}
+  h3 {
+    background-color: hsl(95, 39%, 88%);
+  font-family: sans-serif; trebuchet ms;}
+p {
+  font-family: sans-serif; century gothic;}
+li {
+  font-family: sans-serif; helvetica;}
