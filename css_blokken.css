@@ -1,0 +1,35 @@
+body {
+background-color: #eeede4;}
+h1 { font-family: sans-serif;franklin gothic medium;
+    text-align: center;}
+p.een {
+  width: 300px;
+  padding: 50px;
+  border: 20px solid #C5915c;
+font-family: monospace; consolas;}
+p.twee {
+  width: 300px;
+  padding: 50px;
+  border: 20px solid #C37221;
+  margin: 10px auto 10px auto;
+text-align: center;
+font-family: cursive; comic sans ms;}
+p.drie {
+  width: 300px;
+  padding: 50px;
+  border: 20px solid #c9b199;
+  margin: 30px auto 30px auto;
+text-align: center;
+  -moz-box-shadow: -5px -5px #8c6c4c;
+  -webkit-bow-shadow: -5px -5px #8c6c4c;
+  box-shadow: -5px -5px #8c6c4c;
+font-family: fantasy; impact;}
+p.vier {
+border: 5px solid #6f4010;
+padding: 20px;
+width: 275px;
+text-align: center;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+font-family: sans-serif; century gothic;}
