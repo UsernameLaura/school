@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(to bottom right, rgba(195,182,166,1), rgba(222,213,202,0));
+}
+h1 {
+  width: 985px;
+  padding: 20px;
+  border: 10px solid #C5915c;
+  font-family: monospace; consolas;
+text-align: center;
+font-weight: bolder;
+margin: 10px auto 10px auto;
+}
+fieldset {
+  width: 1000px;
+  border:5px solid #E2e0df;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+background-color: #Ececec;
+margin: 10px auto 10px auto;
+}
+p.intro {
+  border-top: 5px solid #F7e5c5;
+  border-bottom: 5px solid #F7e5c5;
+  font-family: sans-serif; helvetica;
+  margin: 10px auto 10px auto;
+}
+fieldset.info {
+  width: 200px;
+  padding: 5px;
+  border: 4px solid #F3c3af;
+border-top-left-radius: 80px 50px;
+border-top-right-radius: 80px 50px;
+border-bottom-left-radius: 80px 50px;
+border-bottom-right-radius: 80px 50px;
+text-align: center;
+font-family: sans-serif; helvetica;
+}
+p.kop {
+  font-style: oblique;
+}
+p {
+    font-family: sans-serif; helvetica;
+}
+li {
+    font-family: sans-serif; helvetica;
+}
+img {
+  float: right;
+}
