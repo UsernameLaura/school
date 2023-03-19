@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="responsive_speluitleg.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Zevenen</title>
+  </head>
+  <body>
+    <div id="header">
+<h1>Zevenen</h1>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<div id="nav">
+  <div class="topnav" id="myTopnav">
+    <a href="responsive_website.html" class="active">Home</a>
+    <a href="#producten">Producten</a>
+    <a href="#speluitleg">Speluitleg</a>
+    <a href="#nieuws">Nieuws</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+    <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  </div>
+</div>
+<img src="C:\Users\laura\Downloads\Z (3).png" width="460" height="345">
+<p>Druk op de afbeelding om de handleiding te downloaden!</p>
+
+
+
+<div id="footer">
+<p>&copy; Zevenen Copyright 2023</p>
+</div>
+
+  </body>
+</html>
